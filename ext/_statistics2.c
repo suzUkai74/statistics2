@@ -701,7 +701,7 @@ static VALUE rb_pfX_(mod, n1, n2, x)
 
 /* discrete distributions */
 
-int static VALUE rb_bindens(mod, n, p, x)
+static VALUE rb_bindens(mod, n, p, x)
     VALUE mod, n, p, x;
 {
     Need_Float(p);
